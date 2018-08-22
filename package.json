@@ -1,0 +1,28 @@
+{
+  "name": "news-chatfuel",
+  "version": "1.0.0",
+  "description": "An API that exposes news in the form of a response that is accepted by Chatfuel and is rendered as a Gallery on Facebook Messenger",
+  "repository": "https://github.com/sbmglad/newschatbots.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "api",
+    "Balasubramani",
+    "Chatfuel",
+    "facebook",
+    "Facebook",
+    "Messenger",
+    "Messenger"
+  ],
+  "author": "Balasubramani Shanmugam(SBM)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "newsapi": "^2.2.0"
+  }
+}
