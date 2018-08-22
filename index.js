@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI('YOUR-API-KEY-HERE');
+const newsapi = new NewsAPI('9a32c3981d994ca8adb2464cc06a9ba4');
 const server = express();
 
 server.use(bodyParser.urlencoded({
